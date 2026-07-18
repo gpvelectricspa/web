@@ -559,3 +559,11 @@ font-size:2.2rem;
     padding: 35px;
     text-align: center;
 }
+
+button:disabled{
+
+    opacity: .7;
+
+    cursor: not-allowed;
+
+}
