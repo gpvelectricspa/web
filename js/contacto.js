@@ -40,7 +40,7 @@ formulario.addEventListener("submit", function (e) {
     .then(function () {
 
         document.getElementById("resultado").innerHTML =
-        "<p style='color:green;'>✅ Mensaje enviado correctamente.</p>";
+        "<p style='color:green;'>✅ Mensaje enviado correctamente, te responderemos a la brevedad.</p>";
 
         formulario.reset();
 
@@ -56,7 +56,7 @@ formulario.addEventListener("submit", function (e) {
         console.error(error);
 
         document.getElementById("resultado").innerHTML =
-        "<p style='color:red;'>❌ Ocurrió un error al enviar el mensaje.</p>";
+        "<p style='color:red;'>❌ Ocurrió un error al enviar el mensaje, intentalo nuevamente o contactanos por Whatsapp.</p>";
 
     })
 
